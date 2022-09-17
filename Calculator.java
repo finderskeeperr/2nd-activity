@@ -1,10 +1,9 @@
-// for Scanner 
 import java.util.Scanner;
 
 
 
 
-class Main {
+class Calculator {
   public static void main(String[] args) {
 
      // for Display >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>...
@@ -29,21 +28,16 @@ class Main {
           switch (operator) {
 
             //for Addition >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-
-
-            // performs addition between numbers
-                 case '+':
-                result = number1 + number2;
-                System.out.println(number1 + " + " + number2 + " = " + result);
-                break;
+            case '+':
+            result = number1 + number2;
+            System.out.println(number1 + " + " + number2 + " = " + result);
+            break;
+    
 
             
-            
-                    
             
             
             //for Subtraction >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-
             case '-':
             result = number1 - number2;
             System.out.println(number1 + " - " + number2 + " = " + result);
@@ -53,24 +47,26 @@ class Main {
 
 
             //for Multiplication >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+
             case '*':
             result = number1 * number2;
             System.out.println(number1 + " * " + number2 + " = " + result);
             break;
 
-
-
             //for Division >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+            case '/':
+                    result = number1 / number2;
+                    System.out.println(number1 + " / " + number2 + " = " + result);
+                    break;
 
+                  default:
+                    System.out.println("Invalid operator!");
+                    break;
+                }
 
+          }
 
-             }
-
-
-
-
-
-
+        input.close();
 
 
   }
