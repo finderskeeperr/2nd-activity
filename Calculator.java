@@ -61,15 +61,6 @@ class Calculator {
                     break;
                 }
 
-
-
-
-
-
-
-
-
-
           }
 
         input.close();
