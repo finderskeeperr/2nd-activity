@@ -27,41 +27,11 @@ class Calculator {
         number2 = input.nextDouble();
 
           switch (operator) {
-
-            //for Addition >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-            case '+':
-            result = number1 + number2;
-            System.out.println(number1 + " + " + number2 + " = " + result);
-            break;
-    
-
-            
-            
-            
             //for Subtraction >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
             case '-':
             result = number1 - number2;
             System.out.println(number1 + " - " + number2 + " = " + result);
             break;
-
-
-
-
-            //for Multiplication >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-
-
-
-            //for Division >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-
-
-
-
-
-
-
-
-
-
 
           }
 
