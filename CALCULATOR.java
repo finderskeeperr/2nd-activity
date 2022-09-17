@@ -27,29 +27,6 @@ class Calculator {
 
           switch (operator) {
 
-            //for Addition >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-            case '+':
-            result = number1 + number2;
-            System.out.println(number1 + " + " + number2 + " = " + result);
-            break;
-    
-
-            
-            
-            
-            //for Subtraction >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-            case '-':
-            result = number1 - number2;
-            System.out.println(number1 + " - " + number2 + " = " + result);
-            break;
-
-
-
-
-            //for Multiplication >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-
-
-
             //for Division >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
             case '/':
                     result = number1 / number2;
@@ -60,15 +37,6 @@ class Calculator {
                     System.out.println("Invalid operator!");
                     break;
                 }
-
-
-
-
-
-
-
-
-
 
           }
 
