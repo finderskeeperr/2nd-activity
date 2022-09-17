@@ -30,7 +30,16 @@ class Main {
 
             //for Addition >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
 
+
+            // performs addition between numbers
+            case '+':
+                result = number1 + number2;
+                System.out.println(number1 + " + " + number2 + " = " + result);
+                break;
+
             
+            
+                    
             
             
             //for Subtraction >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
@@ -46,17 +55,13 @@ class Main {
 
 
 
+             }
 
 
 
 
 
 
-
-
-          }
-
-        input.close();
 
 
   }
